@@ -1,0 +1,88 @@
+html {
+    background-color: #242424;
+    font-family: "Julius Sans One";
+}
+
+.headers {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    -webkit-animation: 1s ease-in-out infinite alternate;
+    -moz-animation: 1s ease-in-out infinite alternate;
+    animation: 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #494949, 0 0 20px #494949, 0 0 30px #2b2b2b, 0 0 40px #2b2b2b, 0 0 50px #2b2b2b, 0 0 60px #2b2b2b, 0 0 70px #2b2b2b;
+    }
+    to {
+      text-shadow: 0 0 20px #494949, 0 0 30px #141414, 0 0 40px #141414, 0 0 50px #141414, 0 0 60px #141414, 0 0 70px #141414, 0 0 80px #141414;
+    }
+  }
+
+h2{ 
+    text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+}
+
+.back-button, .back-button2 {
+    opacity: 0.5;
+    transition-duration: 0.4s;
+    filter: grayscale(100%);
+}
+
+a:hover {
+    opacity: 0.3;
+  }
+
+.gif {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cedric {
+  margin-top:40px;
+  text-align: center;
+  color: #8b8a8a;
+  text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+}
+
+.cedricdescription {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  padding: 50px;
+  text-shadow:  0px 0px 2px #363636,0px 0px 1px #363636,0px 0px 1px #363636,0px 0px 0.5px #363636,0px 0px 0.5px #363636;
+}
+
+.cedriccontent {
+  display:flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.helga {
+  margin-top:40px;
+  text-align: center;
+  color: #8b8a8a;
+  text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+}
+
+.helgadescription {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  padding: 50px;
+  text-shadow:  0px 0px 2px #363636,0px 0px 1px #363636,0px 0px 1px #363636,0px 0px 0.5px #363636,0px 0px 0.5px #363636;
+}
+
+.helgacontent {
+  display:flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+

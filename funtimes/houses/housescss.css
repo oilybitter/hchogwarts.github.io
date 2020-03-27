@@ -1,0 +1,135 @@
+html {
+    background-color: #242424;
+    font-family: "Julius Sans One";
+}
+
+.headers {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    -webkit-animation: 1s ease-in-out infinite alternate;
+    -moz-animation: 1s ease-in-out infinite alternate;
+    animation: 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #494949, 0 0 20px #494949, 0 0 30px #2b2b2b, 0 0 40px #2b2b2b, 0 0 50px #2b2b2b, 0 0 60px #2b2b2b, 0 0 70px #2b2b2b;
+    }
+    to {
+      text-shadow: 0 0 20px #494949, 0 0 30px #141414, 0 0 40px #141414, 0 0 50px #141414, 0 0 60px #141414, 0 0 70px #141414, 0 0 80px #141414;
+    }
+  }
+
+h2{ 
+    text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+    margin-bottom: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    font-family: "Julius Sans One";
+    text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+    opacity: 1;
+    transition-duration: 0.4s;
+    filter: grayscale(100%);
+}
+
+a:hover {
+    opacity: 0.3;
+  }
+
+.gif {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.gryff {
+  margin-top:40px;
+  text-align: center;
+  color: #8b8a8a;
+  text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+}
+
+.gryffdescription {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  padding: 50px;
+  text-shadow:  0px 0px 2px #363636,0px 0px 1px #363636,0px 0px 1px #363636,0px 0px 0.5px #363636,0px 0px 0.5px #363636;
+}
+
+.gryffcontent {
+  display:flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.huff {
+  margin-top:40px;
+  text-align: center;
+  color: #8b8a8a;
+  text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+}
+
+.huffdescription {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  padding: 50px;
+  text-shadow:  0px 0px 2px #363636,0px 0px 1px #363636,0px 0px 1px #363636,0px 0px 0.5px #363636,0px 0px 0.5px #363636;
+}
+
+.huffcontent {
+  display:flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.raven {
+    margin-top:40px;
+    text-align: center;
+    color: #8b8a8a;
+    text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+}
+
+.ravendescription {
+font-family: Arial, Helvetica, sans-serif;
+color: #646464;
+padding: 50px;
+text-shadow:  0px 0px 2px #363636,0px 0px 1px #363636,0px 0px 1px #363636,0px 0px 0.5px #363636,0px 0px 0.5px #363636;
+}
+
+.ravencontent {
+display:flex;
+justify-content: space-evenly;
+padding: 50px;
+}
+  
+.sly {
+    margin-top:40px;
+    text-align: center;
+    color: #8b8a8a;
+    text-shadow:  0px 0px 5px #363636,0px 0px 3px #363636,0px 0px 3px #363636,0px 0px 1px #363636,0px 0px 1px #363636;
+}
+
+.slydescription {
+font-family: Arial, Helvetica, sans-serif;
+color: #646464;
+padding: 50px;
+text-shadow:  0px 0px 2px #363636,0px 0px 1px #363636,0px 0px 1px #363636,0px 0px 0.5px #363636,0px 0px 0.5px #363636;
+}
+
+.slycontent {
+display:flex;
+justify-content: space-evenly;
+padding: 50px;
+}
+  
+ul  {
+    list-style-type: square;
+  }
